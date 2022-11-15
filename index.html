@@ -1,0 +1,88 @@
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/script" href="load.js">
+    </head>
+    <body>
+        <div class="video"> 
+            <iframe width="1920" height="1080" src="https://www.youtube-nocookie.com/embed/Wqsg2vWHZBM?&controls=0&rel=0&showinfo=0&autoplay=1&loop=1&start=1&mute=1" frameborder="0" allow="autoplay; fullscreen" ></iframe>
+        </div>
+        <div class="titre"><couleur2>Bienvenue sur </couleur2><couleur>StandLife</couleur><br>
+        <st><couleur2>discord.gg/StandLife</couleur2></st>
+        
+        <div id="time"></div>        
+        <div class="titre2"><couleur2>MUSIQUE:</couleur2><couleur> Gazo - Rappel</couleur> <br>
+
+            
+    </div>
+    <div id="logo"></div>
+
+        <div class="bas">
+            <couleur2>Chargement en cours</couleur2><couleur>...</couleur><br>
+            <music><couleur2>Pour désactiver la musique, appuyez sur </couleur2><couleur>espaces</couleur> !</music><br>
+            <div class="soustitre"></div>
+            <p class="item-1">TIP: Vous pouvez configurer vos touches de tous nos script via les règlage de votre jeux.</p>
+
+            <p class="item-2">TIP: Avec [F3] tu peux accèdez à la roulette d'intéractions</p>
+
+            <p class="item-3">TIP: Si tu es blesser, va à l'hôpital.</p>
+        </div>
+        <div class="loading">
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+        </div>
+
+        <audio id="bas" src="music.mp3" autoplay="true" hidden="true" loop="true"></audio>
+    </body>
+    <script>
+    
+        var play = bas;
+        var myAudio = document.getElementById("bas");
+        
+        myAudio.volume = 0.1;
+    
+        function onKeyDown(event) {
+                switch (event.keyCode) {
+                    case 32: //SpaceBar                    
+                        if (play) {
+                            myAudio.pause();
+                            play = false;
+                        } else {
+                            myAudio.play();
+                            play = true;
+                        }
+                        break;
+                }
+          return false;
+        }
+    
+        window.addEventListener("keydown", onKeyDown, false);
+    </script>
+</html>
+
+<script>
+    function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  m = checkTime(m);
+  document.getElementById('time').innerHTML =
+  "<couleur2> Il est : <couleur> "  +h + ":" + m;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+ 
+startTime();
+</script>
