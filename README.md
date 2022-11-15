@@ -1,2 +1,4 @@
 # LD_LoadingScreen
-LoadingScreen pour fivem, open source
+LoadingScreen gratuit pour serveur FIVEM.
+Développer par Luni 
+Discord.gg/LDLEAK
