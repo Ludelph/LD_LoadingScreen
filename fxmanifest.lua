@@ -1,6 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
-description 'Creation par Luni'
+author 'LD | Luni Developpement'
+description 'LoadingScreen'
 
 files {
     'index.html',
