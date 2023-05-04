@@ -17,5 +17,4 @@ Loading Screen Incluant :
 
 # Developper
 * [Luni](https://github.com/ImLuni)
-* [LDLeak](https://discord.com/LDLeak)
 
