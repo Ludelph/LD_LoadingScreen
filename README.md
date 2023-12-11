@@ -16,5 +16,5 @@ Loading Screen Incluant :
 4) Ajout `start LD_Loadingscreen` dans ton server.fg
 
 # Developper
-* [Luni](https://github.com/ImLuni)
+* [Ludelph](https://github.com/Ludelph)
 
