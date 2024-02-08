@@ -7,7 +7,7 @@ Loading Screen Incluant :
 
 
 # Preview
-![screenshot]([https://cdn.discordapp.com/attachments/846172229523996695/1205048734992441374/image.png?ex=65d6f417&is=65c47f17&hm=5bdf638e7ca90e45e2c44a86ccb2795384dea17169df1e297de2216cfa5b3fd5&])
+![screenshot]([https://i.ibb.co/72bxxc3/image.png])
 
 # Téléchargement & Installation
 1) Appuie sur le bouton code et télécharge le .rar.
