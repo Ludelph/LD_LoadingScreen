@@ -7,7 +7,7 @@ Loading Screen Incluant :
 
 
 # Preview
-![screenshot]([[https://i.ibb.co/72bxxc3/image.png](https://i.ibb.co/72bxxc3/image.png)]) 
+![screenshot]([https://i.ibb.co/72bxxc3/image.png]) 
 
 # Téléchargement & Installation
 1) Appuie sur le bouton code et télécharge le .rar.
