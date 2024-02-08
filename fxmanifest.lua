@@ -1,7 +1,11 @@
 fx_version 'cerulean'
 game 'gta5'
-author 'LD | Luni Developpement'
+author 'Ludelph | Atmos-Dev'
 description 'LoadingScreen'
+
+client_scripts {
+	'client.lua'
+}
 
 files {
     'index.html',
@@ -11,3 +15,5 @@ files {
 }
 
 loadscreen 'index.html'
+loadscreen_cursor 'yes'
+
